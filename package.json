@@ -1,0 +1,40 @@
+{
+  "name": "terabyte-services",
+  "version": "1.0.0",
+  "description": "Terabyte Services - Web & App Development Company",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=3000 --host=localhost",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "postcss css/style.css -o dist/style.min.css --use autoprefixer cssnano",
+    "build:js": "uglifyjs js/main.js -o dist/main.min.js --compress --mangle",
+    "lint": "eslint js/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web development",
+    "app development",
+    "digital marketing"
+  ],
+  "author": "Terabyte Services",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.0",
+    "eslint": "^8.43.0",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "uglify-js": "^3.17.4"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

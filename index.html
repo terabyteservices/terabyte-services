@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Terabyte Services - Web & App Development in India</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Terabyte Services - Web & App Development in India">
+    <meta name="description" content="Terabyte Services offers professional web development, mobile app development, and digital marketing services in India. We help businesses establish a strong online presence.">
+    <meta name="keywords" content="web development, app development, digital marketing, India, website design, e-commerce, mobile apps, SEO, social media marketing">
+    <meta name="author" content="Terabyte Services">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#dc143c">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://terabyteservices.com/">
+    <meta property="og:title" content="Terabyte Services - Web & App Development in India">
+    <meta property="og:description" content="Professional web development, mobile apps, and digital marketing services in India.">
+    <meta property="og:image" content="https://terabyteservices.com/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://terabyteservices.com/">
+    <meta property="twitter:title" content="Terabyte Services - Web & App Development in India">
+    <meta property="twitter:description" content="Professional web development, mobile apps, and digital marketing services in India.">
+    <meta property="twitter:image" content="https://terabyteservices.com/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://terabyteservices.com/" />
+    
+    <!-- Google Site Verification (replace with your actual verification code) -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_SITE_VERIFICATION_CODE" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/TERABYTE dark.png" alt="Terabyte Logo - Web & App Development Company" class="logo-img light-logo">
+                <img src="assets/TERABYTE light.png" alt="Terabyte Services Logo - Web & App Development Company" class="logo-img dark-logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="theme-toggle-container">
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="close-menu" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero" id="home">
+        <!-- Video Background -->
+        <div class="video-background">
+            <video id="hero-video" autoplay muted loop playsinline onloadeddata="console.log('Video loaded successfully')" onerror="console.error('Video error:', this.error)">
+                <source src="assets/Recording 2025-07-07 155424.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <h1>Welcome to Terabyte</h1>
+            <p>Innovative solutions for the digital age</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p class="about-text">
+                At Terabyte Services, we empower students and businesses with cutting-edge technology solutions and 
+                creative design services. Our team of experts is dedicated to delivering exceptional results that 
+                drive success in today's digital landscape.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Final Year Projects</h3>
+                    <p>Custom project development for students</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive websites and web apps</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Stunning visuals for your brand</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hashtag"></i>
+                    <h3>Social Media</h3>
+                    <p>Strategic social media management</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-print"></i>
+                    <h3>Printing</h3>
+                    <p>High-quality print solutions</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Account Management</h3>
+                    <p>Dedicated support for your needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <p class="section-subtitle">Showcasing our expertise through innovative solutions</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Traditional Indian handicrafts and textiles displayed on wooden table">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Desi Bazaar</h3>
+                                <p>E-commerce platform for traditional Indian handicrafts</p>
+                                <a href="#" class="portfolio-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Students learning in a modern Indian classroom with laptops">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>VidyaLearn</h3>
+                                <p>E-learning platform for Indian students</p>
+                                <a href="#" class="portfolio-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Delicious Indian thali with various curries and bread">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Swad Food</h3>
+                                <p>Food delivery app for authentic Indian cuisine</p>
+                                <a href="#" class="portfolio-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Taj Mahal at sunrise - Famous Indian landmark">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Bharat Darshan</h3>
+                                <p>Travel booking platform for Indian destinations</p>
+                                <a href="#" class="portfolio-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <p class="section-subtitle">Hear from businesses we've helped grow</p>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">Terabyte transformed our online presence completely. Our e-commerce sales have tripled since they built our website.</p>
+                    <div class="client-info">
+                        <div class="client-initials">RS</div>
+                        <div class="client-details">
+                            <h4>Rahul Sharma</h4>
+                            <p>Founder, DesiCraft Emporium</p>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">The mobile app developed by Terabyte has made it so easy for our students to access study materials. Excellent work!</p>
+                    <div class="client-info">
+                        <div class="client-initials">PP</div>
+                        <div class="client-details">
+                            <h4>Priya Patel</h4>
+                            <p>Director, VidyaGuru Academy</p>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">Their digital marketing strategy brought us 200% more leads. Highly recommended for any business in India.</p>
+                    <div class="client-info">
+                        <div class="client-initials">AD</div>
+                        <div class="client-details">
+                            <h4>Amit Desai</h4>
+                            <p>CEO, SpiceRoute Foods</p>
+                            <div class="rating">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Leadership</h2>
+            <p class="section-subtitle">Meet the visionaries behind Terabyte Services</p>
+            
+            <div class="team-grid">
+                <!-- Founder -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/member/tejas.png" alt="Tejas Bhatkar - Founder & CEO of Terabyte Services">
+                        <div class="social-links">
+                            <a href="https://linkedin.com/in/tejasbhatkar" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://instagram.com/tejasbhatkar_" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Tejas Bhatkar</h3>
+                        <p class="position">Founder & CEO</p>
+                        <p class="bio">Leading the vision and strategy of Terabyte Services with innovation and expertise.</p>
+                    </div>
+                </div>
+                
+                <!-- Director 1 -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/member/prathamesh.png" alt="Prathamesh Kothar - Director of Technology at Terabyte Services">
+                        <div class="social-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Prathamesh Kothar</h3>
+                        <p class="position">Director of Technology</p>
+                        <p class="bio">Driving business growth and operational excellence at Terabyte Services.</p>
+                    </div>
+                </div>
+                
+                <!-- Director 2 -->
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="assets/member/imran.png" alt="Imran Ahemad - Director of Operations at Terabyte Services">
+                        <div class="social-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Imran Ahemad</h3>
+                        <p class="position">Director</p>
+                        <p class="bio">Overseeing technical innovation and service delivery excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Have a project in mind or want to discuss how we can help? Reach out to us through any of these channels:</p>
+                    
+                    <div class="social-buttons">
+                        <a href="https://wa.me/919359653916" target="_blank" rel="noopener noreferrer" class="social-button whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> WhatsApp Us
+                        </a>
+                        <a href="https://instagram.com/tejasbhatkar_" target="_blank" rel="noopener noreferrer" class="social-button instagram-btn">
+                            <i class="fab fa-instagram"></i> DM on Instagram
+                        </a>
+                    </div>
+                    
+                    <div class="contact-items-container">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Phone</h3>
+                            <a href="tel:+919359653916">+91 93596 53916</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <a href="mailto:er.tejasbhatkar@gmail.com">er.tejasbhatkar@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>Amravati, Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/TERABYTE light.png" alt="Terabyte Logo" class="footer-logo-img">
+                </div>
+                
+                <div class="footer-text">
+                    <p>Transforming ideas into digital reality with cutting-edge technology and innovative design solutions.</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://wa.me/919359653916" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/tejasbhatkar_" target="_blank" rel="noopener noreferrer" title="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/tejasbhatkar" target="_blank" rel="noopener noreferrer" title="Connect on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                
+                <p class="copyright">&copy; 2024 Terabyte Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919359653916" class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

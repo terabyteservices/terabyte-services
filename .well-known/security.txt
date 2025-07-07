@@ -1,0 +1,7 @@
+# Security Policy for Terabyte Services
+Contact: security@terabyteservices.com
+Encryption: https://terabyteservices.com/.well-known/pgp-key.txt
+Acknowledgments: https://terabyteservices.com/security/hall-of-fame
+Preferred-Languages: en
+Policy: https://terabyteservices.com/security-policy
+Hiring: https://terabyteservices.com/careers#security

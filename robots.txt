@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://terabyteservices.com/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+
+# Allow all other directories and files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Crawl-delay: 10  # Uncomment and adjust if needed to limit crawl rate
